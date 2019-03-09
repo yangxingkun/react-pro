@@ -1,0 +1,45 @@
+.zhu{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.sec{
+  flex:1;
+  overflow: auto;
+  
+}
+.foot .active{
+  color:rgb(250, 240, 240);
+  background: #b1a0a0
+}
+.foot{
+  background: orange;
+  display: flex;
+  justify-content: space-around;
+  height:50px;
+}
+
+.foot a{
+    display: block;
+    width: 20vw;
+    height: 50px;
+    
+}
+.foot dl{
+  display: flex;
+  flex-direction: column;
+
+}
+.foot dt{
+  display: flex;
+  justify-content: center;
+}
+dl .iconfont{
+  font-size: 28px;
+  color: #d62929;
+}
+.foot dd{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
